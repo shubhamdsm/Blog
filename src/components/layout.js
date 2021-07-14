@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import "./layout.css"
 import { rhythm, scale } from "../utils/typography"
 
 const Layout = ({ location, title, children }) => {
