@@ -23,6 +23,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             style={{
               marginTop: rhythm(1),
               marginBottom: 0,
+              color: "white",
             }}
           >
             {post.frontmatter.title}
@@ -32,6 +33,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               ...scale(-1 / 5),
               display: `block`,
               marginBottom: rhythm(1),
+              color: "white,",
             }}
           >
             {post.frontmatter.date}

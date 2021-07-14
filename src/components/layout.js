@@ -14,6 +14,7 @@ const Layout = ({ location, title, children }) => {
           ...scale(1.5),
           marginBottom: rhythm(1.5),
           marginTop: 0,
+          color: "white",
         }}
       >
         <Link
@@ -33,6 +34,7 @@ const Layout = ({ location, title, children }) => {
         style={{
           fontFamily: `Montserrat, sans-serif`,
           marginTop: 0,
+          color: "#FFA7C4",
         }}
       >
         <Link
@@ -57,8 +59,8 @@ const Layout = ({ location, title, children }) => {
       }}
     >
       <header>{header}</header>
-      <main>{children}</main>
-      <footer>
+      <main style={{ color: "white" }}>{children}</main>
+      <footer style={{ color: "white" }}>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>

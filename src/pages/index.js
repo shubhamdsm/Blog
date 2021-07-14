@@ -24,7 +24,14 @@ const BlogIndex = ({ data, location }) => {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <Link
+                  style={{
+                    color: "#FFA7C4",
+                    boxShadow: `none`,
+                    fontFamily: `Montserrat, sans-serif`,
+                  }}
+                  to={node.fields.slug}
+                >
                   {title}
                 </Link>
               </h3>
